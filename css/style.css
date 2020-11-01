@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+p{
+  font-family: 'Noto Serif KR', serif;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+}
+
+.frame {
+  width: 70%;
+  margin-top: 6.5%;
+  left: 15%;
+  position: absolute;
+}
+
+
+.blur {
+  filter: blur(5px) brightness(20%);
+  transition:2s;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(0px);
+  }
+
+  70% {
+    filter: blur(5px);
+  }
+
+  80% {
+    filter: blur(.5px);
+  }
+  90% {
+    filter: blur(2px)
+  }
+  100% {
+    filter: blur(0px) brightness(0%);
+  }
+}
+
+@keyframes textblur1 {
+  0% {
+    filter: blur(0px);
+  }
+
+  50% {
+    filter: blur(2px);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
+}
+
+@keyframes textblur2 {
+  0% {
+    filter: blur(2px);
+  }
+
+  50% {
+    filter: blur(0px);
+  }
+
+  100% {
+    filter: blur(2px);
+  }
+}
+
+#img11:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+#img1:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img4:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img3:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img2:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+#img5:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img9:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img7:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img8:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img6:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#img10:hover{
+  animation-name: blur;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+.textblur1 {
+  animation-name: textblur1;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.textblur2 {
+  animation-name: textblur2;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+
+
